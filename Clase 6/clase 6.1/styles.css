@@ -1,0 +1,63 @@
+.container{
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+    height: 1580px;
+    border-radius: 10px;
+}
+
+h1{
+    color: rgb(93, 80, 80);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+   
+}
+
+.parraf1{
+    color: rgb(93, 73, 73);
+    font-size: 15px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+button{
+    border-radius: 50px;
+}
+
+.container-info{
+    background-color: rgb(72, 14, 14);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.info{
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+h2{
+    color: antiquewhite;
+    font-size: 14px;
+}
+
+img{
+    width: auto;
+    height: 250px;
+    margin-top: 40px;   
+    border-radius: 15px;
+}
+.parraf2{
+    color: rgb(140, 136, 136);
+    font-size: 15px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+

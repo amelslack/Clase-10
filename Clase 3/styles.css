@@ -1,0 +1,16 @@
+div {
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+  border: solid red 4px;
+  border-radius: 70px;
+}
+h1 {
+  color: aqua;
+}
+.titulo{
+    color:red;
+}
+#parrafo2{
+    font-size: 30px;
+}

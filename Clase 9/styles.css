@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+body{
+    background-image: url("/Clase\ 9/desktop.png");
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+h1{
+    font-size: 19px;
+    font-weight:bold;
+}
+p{
+    font-size: 7px;
+    padding-top: 10px;
+}
+form{
+    font-size: 10px;
+    height: auto;
+    margin: 0;
+    width: 100%;
+}
+.cont{
+    align-items: center;
+    background-color:transparent ;
+    display: flex;
+    gap:10px ;
+    height: 300px;
+    justify-content: center;
+    margin:0;
+    padding:30px;
+    width: 500px;
+}
+.cont-left{
+    background-color:transparent;
+    margin:0;
+    padding: 10px;
+    width: 50%;
+}
+.cont-rigth{
+    background-color:transparent;
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+}
+.button-top{
+    background-color:cornflowerblue;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgb(105, 105, 105);
+    color: white;
+    cursor: pointer;
+    font-size: 6px;
+    margin-bottom: 12px;
+    padding: 8px;
+    width: 100%;
+}
+.button-top:hover{
+    background-color: rgb(129, 167, 238);
+    color: black;
+}
+.try-free-button{
+    font-weight: 500;
+}
+.cont-form{
+    background-color:white;
+    border: 1px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0px 1px 5px rgb(190, 190, 190);
+    padding: 10px;
+}
+.form-slot{
+    font-size: 7px;
+    margin-bottom: 12px;
+    padding: 6px;
+    width: 100%;
+}   
+.form-button{
+    background-color:forestgreen;
+    border:none;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px rgb(146, 145, 145);
+    color: white;
+    font-size: .45rem;
+    margin-bottom: 12px;
+    padding: 6px;
+    width: 100%;
+}
+.form-button:hover{
+    background-color: rgb(87, 141, 87);
+    color: black;
+    cursor: pointer;
+}
+input::placeholder {
+    color:black;
+    font-size: 7px;
+    font-style: italic;
+    margin-bottom: 12px;
+    padding: 6px;
+    width: 100%;
+}
+.terms-and-services{
+    color: black;
+    font-size: 5px;
+    text-align: center;
+}

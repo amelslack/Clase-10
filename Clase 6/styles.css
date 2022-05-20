@@ -1,0 +1,45 @@
+
+.container {
+    background-color: rgb(89, 27, 27);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 15px;
+    height: 500px;
+    width: 350px;
+    
+    
+}
+h1 {
+    color: blanchedalmond;
+    margin: 50px;
+}
+p {
+    color: aqua;
+    margin:50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 90;
+
+}
+.container-img {
+    background-color: rgb(40, 16, 62);
+    margin:10px;
+    padding: 10px;
+}
+.button {
+    background-color: blue;
+    padding: 25px 50px;
+    border-radius: 70px;
+    box-shadow: 10px 5px 5px black;
+    margin: 10px;
+    color: rgb(120, 14, 58);
+}
+img {
+    width: 30%;
+    margin: 5px;
+}
+.imagen{
+    height:61px;
+    width: auto;
+}

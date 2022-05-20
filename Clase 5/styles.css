@@ -1,0 +1,11 @@
+.contenedor {
+    margin:auto;
+    text-align: center;
+}
+h1 {
+    color: blue;
+    margin:auto;
+}
+p {
+    text-align: center;
+}
