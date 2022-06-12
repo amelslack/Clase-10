@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+h1{
+    font-family:'Big Shoulders Display',sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+p{
+    font-size: .64rem;
+    color:hsla(0, 0%, 100%, 0.75)
+}
+button{    
+    border: solid;
+    border-radius: 2rem;
+    color:white;
+    font-size: .65rem;
+    height: 2rem;
+    margin-top: 3.5rem;
+    width: 70%;
+}
+button:hover{
+    background-color: white;
+    cursor: pointer;    
+}
+
+.cont-body{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem; 
+}
+.colum-section{
+    border-radius: .4rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    justify-content:baseline;
+    justify-content:space-between;
+    padding: 2rem;
+    width: 13rem;
+}
+.left{
+    background-color: hsl(31, 77%, 52%);
+}
+.medium{
+    background-color: hsl(184, 100%, 22%);
+}
+.right{
+    background-color:hsl(179, 100%, 13%);
+}
+.cont-icon{
+    display: flex;
+    align-items: center;
+}
+.back-icon{
+    background-color: black;
+    border-radius: 50%;
+    height: 1.5rem;
+    text-align:end; 
+    width: 1.5rem;
+}
+
+.b-i-left{
+    background-color: hsl(31, 71%, 44%);
+}
+.b-i-medium{
+    background-color: hsl(184, 98%, 17%);
+}
+.b-i-rigth{
+    background-color: hsl(179, 96%, 9%);
+}
+
+.fa-car-side{
+    color: hsl(31, 95%, 67%);
+    position:relative;
+    right: .7rem;
+}
+.fa-truck-pickup{
+    color:hsl(184, 61%, 43%);
+    position:relative;
+    right: .7rem;
+}
+.fa-van-shuttle{
+    color:hsl(179, 63%, 30%);
+    position:relative;
+    right: .7rem;
+}
+
+.button-left{
+    background-color: hsl(31, 77%, 52%);
+}
+.button-left:hover{
+    color: hsl(31, 77%, 52%);
+}
+.button-medium{
+    background-color: hsl(184, 100%, 22%);
+}
+.button-medium:hover{
+    color: hsl(184, 100%, 22%);
+}
+.button-rigth{
+    background-color:hsl(179, 100%, 13%);
+}
+.button-rigth:hover{
+    color:hsl(179, 100%, 13%);
+}
+@media (min-width: 420px){
+    .left{
+        border-radius:.4rem 0 0 .4rem;
+    }
+    .medium{
+        border-radius: 0;
+    }
+    .right{
+        border-radius:.0 .4rem .4rem 0 ;
+    }
+}
